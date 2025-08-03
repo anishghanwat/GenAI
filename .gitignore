@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+*.log
+*.env
+.env
+.env.*
+
+# Virtual environment
+venv/
+
+# VSCode settings
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.turbo/
+frontend/.env
+frontend/.env.*
+
+# Logs
+*.log
+
+# Alembic
+backend/alembic/versions/
+
+# Docker
+**/__pycache__/
+**/*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Ignore uploads if it's temporary
+backend/uploads/
